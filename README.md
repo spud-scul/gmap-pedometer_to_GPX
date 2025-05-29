@@ -8,10 +8,13 @@ This is simple bookmarklet that allows you to convert https://www.gmap-pedometer
 
 ## Instructions
 
-Drag the following bookmarklet to your browser toolbar:
-<a class="bookmarklet" href="javascript:(function()%7Bvar script%3Ddocument.createElement(%27script%27)%3Bscript.src%3D%27https://spud-scul.github.io/gmap-pedometer_to_GPX/src/gmap-pedometer_to_gpx.js%27%3Bdocument.getElementsByTagName(%27head%27)%5B0%5D.appendChild(script)%3B%7D)()">gmap-pedometer_to_GPX</a>
+1. See https://spud-scul.github.io/gmap-pedometer_to_GPX/ for a page showing the bookmarklet. Drag it to your browser toolbar.
 
-Visit a recording on https://www.gmap-pedometer.com. Wait for the map to load, then click the bookmarklet you dragged to the browser toolbar. You'll get two pop ups asking for the stardate and operation name, then the GPX file will download and a window will open with its content.
+2. Visit a recording on https://www.gmap-pedometer.com. Wait for the map to load, then click the bookmarklet you dragged to the browser toolbar. You'll get two pop ups asking for the stardate and operation name, then the GPX file will download and a window will open with its content.
+
+3. Upload the GPX to HAL using the [file upload interface](https://scul.org/HAL/index.php/Special:Upload).
+
+4. Add it to the [Mission Routes](https://scul.org/HAL/index.php/Mission_Routes) page on HAL.
 
 ## Acknowledgements
 
@@ -20,4 +23,3 @@ Visit a recording on https://www.gmap-pedometer.com. Wait for the map to load, t
 * Gmap-pedometer elevation code courtesy of Mathew O'Brien.
 * 3/05/2007 - HeyWhatsThat.com code by mk -at- heywhatsthat.com
 * 10/09/2007 - Allpoints speed improvement by Kyle Yost
-* 
