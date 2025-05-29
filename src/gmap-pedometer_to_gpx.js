@@ -479,12 +479,12 @@ if ((document.location.hostname.indexOf('gmap-pedometer') >= 0) && (qtype==0) &&
 	if (dtype == "track") {
 	    xmlt+= '   <trk>\n';
 	    xmlt+= '      <name>' + 'SCUL ' + date + ': ' + operation + '</name>\n' +
-		'      <cmt>Permalink: &lt;![CDATA[\n' + pl + '\n]]>\n</cmt>\n';
+		'      <cmt>Permalink: <![CDATA[\n' + pl + '\n]]>\n</cmt>\n';
 	    xmlt+= '      <trkseg>\n';
 	} else if (dtype == "route") {
 	    xmlt+= '   <rte>\n';
 	    xmlt+= '      <name>' + 'SCUL ' + date + ': ' + operation + '</name>\n' +
-		'      <cmt>Permalink: &lt;![CDATA[\n' + pl + '\n]]>\n</cmt>\n';
+		'      <cmt>Permalink: <![CDATA[\n' + pl + '\n]]>\n</cmt>\n';
 	}
 	for(var i=0;i<gLatLngArray.length;i++){
 	    if (dtype == "track") {
